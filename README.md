@@ -4,7 +4,7 @@
 
 ## 1) Material
 
-- **3 baralhos completos**, incluindo todos os curingas (**Jokers**).
+- **3 baralhos completos**, incluindo todos os coringas (**Jokers**).
 
 ---
 
@@ -18,7 +18,7 @@
 
 | Carta                             | Valor de Pontos                      |
 | --------------------------------- | ------------------------------------ |
-| **Joker (curinga)**               | **+50**                              |
+| **Joker (coringa)**               | **+50**                              |
 | **2** (coringa de qualquer naipe) | **+20**                              |
 | **A** (qualquer naipe)            | **+20**                              |
 | **8, 9, 10, J, Q, K**             | **+10** cada                         |
