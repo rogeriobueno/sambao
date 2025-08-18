@@ -92,6 +92,8 @@
 - Jogam **4 ou 6 competidores**, sempre em **duas equipes** (2×2 ou 3×3).
 - O distribuidor entrega **15 cartas** a cada jogador, em lotes de **3 por vez**, no **sentido horário**.
 - O **primeiro a jogar** é o jogador à **esquerda** do distribuidor. O cargo de distribuidor **gira** a cada mão.
+- Depois deve-se recolher todos os 3 vermelhos e abaixar na posição da mesa de cada equipe.
+- Depois deve começar o lixo com 3 cartas viradas para baixo(surpresinha) e tirar a 4 carta por cima.
 
 ---
 
@@ -99,7 +101,7 @@
 
 Na sua vez, o jogador **deve**:
 
-1. **Comprar**: escolher entre **duas cartas do monte** ou **todo o lixo**.
+1. **Comprar**: escolher entre **duas cartas do monte** ou **todo o lixo (respeitando as regras)**.
    - Para **comprar o lixo**, a **equipe** precisa já ter **iniciado a mesa** (ver §8).
 2. **Jogar cartas na mesa** (opcional), respeitando as regras de formação.
 3. **Descartar 1 carta** no lixo para encerrar a vez.
