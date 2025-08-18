@@ -163,6 +163,4 @@ Para **bater**, o jogador deve:
 
 ---
 
-### ✅ Este manual reflete exatamente as regras e valores fornecidos. Se desejar, posso gerar uma **versão pronta para impressão (PDF)** com diagramação de livreto e exemplos visuais de jogadas.
-
 
