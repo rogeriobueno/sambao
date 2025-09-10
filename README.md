@@ -149,7 +149,7 @@ Para **bater**, o jogador deve:
 
 **Bônus por bater:** **+300** pontos para a equipe.
 
-**Batida alternativa:** **400** pontos adicionais, fazer uma batida formando no momento um jogo combinado de quatro cartas de 3 pretos, e também descartardo 1 carta qualquer.
+**Batida alternativa:** **400** pontos adicionais, fazer uma batida formando no momento um jogo combinado de quatro cartas de 3 pretos, e também descartando-se 1 carta qualquer.
 
 ### Contagem Final
 
