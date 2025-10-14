@@ -26,7 +26,7 @@
 | **3 vermelho (♥ ♦)**              | **±100** cada (*ver regra especial*) |
 | **3 preto (♣ ♠)**                 | **−100** cada (*ver regra especial*) |
 
-### Regra especial – 3 vermelhos (♥ ♦)
+### 🔴 Regra especial – 3 vermelhos (♥ ♦)
 
 - Valor base: **100 pontos** cada.
 - O sinal depende do número de canastras/sequências da equipe ao final da rodada:
@@ -35,7 +35,7 @@
   - **2 ou mais:** +100 cada.
 - **Bônus por quantidade:** se a equipe tiver **4, 5 ou 6** cartas de 3 vermelho, **cada uma vale 200**, aplicando o mesmo critério de sinal.
 
-### Regra especial – 3 pretos (♣ ♠)
+### ⚫ Regra especial – 3 pretos (♣ ♠)
 
 - Cada um vale **−100 pontos** na contagem final.
 - Podem ser usados para **bloquear a compra do lixo** pelo próximo jogador.
@@ -79,7 +79,7 @@
 | ------------------------------- | ------------------- |
 | **3 ou 4 cartas**               | **−1000** *(multa)* |
 | **5 ou 6 cartas**               | **0**               |
-| **7 ou mais cartas**           | **+1500**           |
+| **7 ou mais cartas**            | **+1500**           |
 
 > ⚠️ Sequências **não podem** conter **2** (coringa) nem **3** de qualquer naipe.
 
@@ -109,7 +109,7 @@
 
 > ▶️ O **primeiro jogador** da rodada pode comprar o lixo **sem ter iniciado a mesa**, se tiver:
 > - **1 carta igual** ao topo do lixo **e** **1 coringa**.
-> - Mas as cartas viradas do lixo **não contam** para os pontos mínimos da mesa.
+> - As cartas viradas do lixo **não contam** para os pontos mínimos da mesa.
 
 ---
 
