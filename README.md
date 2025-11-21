@@ -62,7 +62,7 @@
 | **Limpa** (sem coringas)        | **+500**                                     |
 | **De Ases suja**                | **+500**                                     |
 | **De Ases limpa**               | **+800**                                     |
-| **Só de coringas** (7 curingas) | **+2000** *(baixada de uma só vez)*          |
+| **Só de coringas** (7 coringas) | **+2000** *(baixada de uma só vez)*          |
 
 ---
 
