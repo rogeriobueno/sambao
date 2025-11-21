@@ -136,7 +136,7 @@
 - **3 vermelho (♥ ♦)**:
   - Deve ser **baixado imediatamente** ao ser recebido.
   - Ao baixar, o jogador **compra 1 carta extra** do monte.
-  - Pontuação conforme §3 (regra especial por quantidade e por nº de jogos).
+  - Pontuação conforme §3 (regra especial por quantidade e por nº de canastras/sequências).
 
 ---
 
