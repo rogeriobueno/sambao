@@ -8,3 +8,4 @@ cwd = "./"
 
 [assets]
 directory = "./apps/web"
+
