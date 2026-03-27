@@ -2,6 +2,10 @@ name = "sambao"
 main = "apps/api/src/worker.ts"
 compatibility_date = "2026-03-27"
 
+[build]
+command = "npm install"
+cwd = "./"
+
 [assets]
 directory = "./apps/web"
 
