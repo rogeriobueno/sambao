@@ -1,0 +1,27 @@
+{
+  "name": "sambao",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:api": "tsx watch apps/api/src/server.ts",
+    "dev:cf": "wrangler dev",
+    "deploy:cf": "wrangler deploy --config wrangler.toml",
+    "generate:manual": "tsx scripts/generate-manual.ts",
+    "check:manual": "tsx scripts/generate-manual.ts --check",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.2",
+    "hono": "^4.7.7",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3",
+    "tsx": "^4.19.3",
+    "vitest": "^3.1.1",
+    "wrangler": "^4.78.0"
+  }
+}

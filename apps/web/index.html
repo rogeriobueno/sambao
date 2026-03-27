@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sambao - Mesa Local</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Sambao</h1>
+      <p class="muted">MVP local: uma partida ativa por vez</p>
+
+      <section class="card">
+        <h2>Criar Partida</h2>
+        <label for="mode">Modo</label>
+        <select id="mode"></select>
+        <button id="createMatch">Criar partida</button>
+        <button id="resetMatch" class="ghost">Resetar partida</button>
+      </section>
+
+      <section class="card">
+        <h2>Entrar Jogadores</h2>
+        <div class="row">
+          <input id="playerName" type="text" placeholder="Nome do jogador" maxlength="24" />
+          <select id="teamId">
+            <option value="A">Equipe A</option>
+            <option value="B">Equipe B</option>
+          </select>
+          <button id="addPlayer">Entrar</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Jogador local</h2>
+        <label for="playerSelect">Selecionar jogador para jogar a mao:</label>
+        <select id="playerSelect"></select>
+      </section>
+
+      <section class="card">
+        <h2>Mesa</h2>
+        <div class="board-grid">
+          <div>
+            <h3>Monte</h3>
+            <div id="stockCount" class="pile">0</div>
+          </div>
+          <div>
+            <h3>Lixo (topo)</h3>
+            <div id="discardTop" class="pile">-</div>
+          </div>
+          <div>
+            <h3>Turno atual</h3>
+            <div id="turnInfo" class="pile">-</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Maos</h2>
+        <div id="hand" class="cards"></div>
+        <div class="row-actions">
+          <button id="drawCards">Comprar 2 do monte</button>
+          <button id="drawDiscard" class="ghost">Comprar lixo</button>
+          <button id="meldCards" class="ghost">Baixar selecionadas</button>
+          <button id="stageOpenGroup" class="ghost">Separar grupo p/ abertura</button>
+          <button id="openTable" class="ghost">Abrir mesa com grupos</button>
+          <button id="clearOpenGroups" class="ghost">Limpar grupos</button>
+          <button id="discardCard" class="ghost">Descartar 1</button>
+          <button id="goOut" class="ghost">Bater 🏆</button>
+        </div>
+        <div class="stack gap-sm">
+          <div>
+            <h3>Grupos separados para abrir a mesa</h3>
+            <div id="pendingOpenGroups" class="info-box">Nenhum grupo separado</div>
+          </div>
+
+          <div>
+            <label for="meldTargetSelect">Adicionar selecionadas em jogo existente:</label>
+            <div class="row-extend">
+              <select id="meldTargetSelect"></select>
+              <button id="extendMeld" class="ghost">Estender jogo</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Jogos na mesa</h2>
+        <div class="board-grid">
+          <div>
+            <h3>Equipe A</h3>
+            <div id="meldsA" class="melds"></div>
+          </div>
+          <div>
+            <h3>Equipe B</h3>
+            <div id="meldsB" class="melds"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Estado da Partida</h2>
+        <pre id="state">Carregando...</pre>
+      </section>
+    </main>
+
+    <script type="module" src="/assets/app.js"></script>
+  </body>
+</html>
+
