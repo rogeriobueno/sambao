@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    container_name: sambao-api
+    ports:
+      - "8787:8787"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev:api
+

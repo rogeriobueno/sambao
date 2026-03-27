@@ -1,0 +1,46 @@
+name: Sync Manual
+
+on:
+  push:
+    paths:
+      - "rules/sambao.yaml"
+      - "scripts/generate-manual.ts"
+  pull_request:
+    paths:
+      - "rules/sambao.yaml"
+      - "scripts/generate-manual.ts"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Generate README
+        run: npm run generate:manual
+
+      - name: Commit if changed
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "docs: sync manual from rules"
+          git push
+
+      - name: Check on PR
+        if: github.event_name == 'pull_request'
+        run: npm run check:manual
+
